@@ -1,0 +1,32 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Fotile Dishwasher",
+        "description": "Paste your authorization code. It only needs to be entered once.",
+        "data": {
+          "auth_code": "Authorization code",
+          "scan_interval": "Polling interval (seconds)"
+        }
+      }
+    },
+    "error": {
+      "invalid_auth_code": "Invalid authorization code format",
+      "auth": "Authorization code is invalid or expired, please generate a new one",
+      "unknown": "Unexpected error, check the logs"
+    },
+    "abort": {
+      "already_configured": "This dishwasher is already configured"
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Options",
+        "data": {
+          "scan_interval": "Polling interval (seconds)"
+        }
+      }
+    }
+  }
+}

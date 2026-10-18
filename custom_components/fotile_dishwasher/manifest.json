@@ -1,0 +1,11 @@
+{
+  "domain": "fotile_dishwasher",
+  "name": "方太洗碗机 (Fotile Dishwasher)",
+  "codeowners": ["@doubly-yi"],
+  "config_flow": true,
+  "documentation": "https://github.com/doubly-yi/fotile-dishwasher",
+  "iot_class": "cloud_polling",
+  "issue_tracker": "https://github.com/doubly-yi/fotile-dishwasher/issues",
+  "requirements": [],
+  "version": "1.1.0"
+}

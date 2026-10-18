@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# 编辑器
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Home Assistant 本地配置
+config/
+.storage/
+*.db
+*.log
+
+# ===== 本地凭据：千万不要提交 =====
+# tools/ 下的工具默认读写 session.json
+session.json
+tools/session.json
+secrets.json
+tokens.json
+*.jsonl
+*.apk
+*.so
+
+# 构建产物
+dist/

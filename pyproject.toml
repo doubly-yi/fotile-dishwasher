@@ -1,0 +1,14 @@
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+extend-exclude = ["__pycache__", ".git"]
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "UP", "B", "BLE"]
+ignore = ["E501"]  # 行宽由 formatter 处理
+
+[tool.ruff.lint.per-file-ignores]
+"tools/*.py" = ["BLE001"]  # 工具脚本里宽泛捕获是有意的
+
+[tool.ruff.format]
+quote-style = "double"
