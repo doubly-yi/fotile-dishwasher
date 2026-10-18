@@ -1,9 +1,13 @@
 # 方太洗碗机 · Home Assistant 集成
 
+> [!WARNING]
+> **暂停维护，不建议安装。** 实际使用中发现，本集成可能导致方太手机 App 掉线。
+> 与手机 App 的会话共存问题尚未解决，也未验证能够稳定同时使用。已安装的用户建议先卸载本集成，再重新登录手机 App。
+> 项目代码保留供后续研究，暂无恢复维护或发布新版本的计划。
+
 把方太（Fotile）嵌入式洗碗机接入 Home Assistant，支持状态监控与远程控制。
 
 > 已适配：嵌入式洗碗机 **JBCD7E-02-S7**
-> 其它方太洗碗机大概率可用，欢迎反馈适配结果。
 
 [![hacs_badge](https://img.shields.io/badge/HACS-Custom-orange.svg)](https://github.com/hacs/integration)
 ![version](https://img.shields.io/badge/version-1.1.0-blue)
